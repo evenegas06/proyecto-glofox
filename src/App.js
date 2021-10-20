@@ -15,8 +15,8 @@ function App() {
     <HashRouter>
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/contact" component={Contact} />
-        <Route exact path="/about" component={AboutUs} />
+        <Route  path="/contact" component={Contact} />
+        <Route  path="/about" component={AboutUs} />
         <Route component={NotFound} />
       </Switch>
     </HashRouter>
