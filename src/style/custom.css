@@ -1,0 +1,74 @@
+.custom-logo {
+    width: 120px;
+    height: 52px;
+}
+
+.custom-navbar-bg {
+    background-color: blueviolet;
+}
+
+.title-size {
+    font-size: 20px;
+}
+
+footer {
+    background: rgb(49, 48, 48);
+  }
+  
+  #footer a{
+    text-decoration: none;
+  }
+  
+  .social-network-icon {
+    width: 29px;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .borde {
+    outline: 1px solid black;
+  }
+  
+  .cont-fl {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .see-more {
+    color:rgb(65, 174, 225);
+    text-decoration: none;
+  }
+  
+  .see-more:hover {
+    color: rgb(113, 137, 211);
+    text-decoration: none;
+  }
+
+  /* Pagina 404 */
+  
+  .page-404 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #121f3d;
+    color: #becde3;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .title-404 {
+    font-size: 150px;
+  }
+
+  .icon-size {
+      font-size: 80px;
+  }
+
+  .simpleCard-title {
+      font-size: 24px;
+  }
