@@ -25,28 +25,34 @@ const Contact = () => {
                     <div className="col-6">
                         <form onSubmit={alert}>
                             <div className="row mb-3">
-                                <label for="nombre" className="col-sm-3 col-form-label">Nombre <span className="text-danger">*</span></label>
+                                <label htmlFor="nombre" className="col-sm-3 col-form-label">Nombre <span className="text-danger">*</span></label>
                                 <div className="col-sm-9">
                                     <input type="text" className="form-control" id="nombre" required />
                                 </div>
                             </div>
                             <div className="row mb-3">
-                                <label for="correo" className="col-sm-3 col-form-label">Email <span className="text-danger">*</span></label>
+                                <label htmlFor="correo" className="col-sm-3 col-form-label">Email <span className="text-danger">*</span></label>
                                 <div className="col-sm-9">
                                     <input type="email" className="form-control" id="correo" required />
                                 </div>
                             </div>
                             <div className="row mb-3">
-                                <label for="Telefono" className="col-sm-3 col-form-label">Teléfono</label>
+                                <label htmlFor="Telefono" className="col-sm-3 col-form-label">Teléfono</label>
                                 <div className="col-sm-9">
                                     <input type="tel" className="form-control" id="Telefono" />
+                                </div>
+                            </div>
+                            <div className="row mb-3">
+                                <label htmlFor="msj" className="col-sm-3 col-form-label">Mensaje <span className="text-danger">*</span></label>
+                                <div className="col-sm-9">
+                                    <textarea rows="4" className="form-control" id="msj" required></textarea>
                                 </div>
                             </div>
                             <div className="row mb-3">
                                 <div className="col-sm-9 offset-sm-3">
                                     <div className="form-check">
                                         <input className="form-check-input" type="checkbox" id="gridCheck1" />
-                                        <label className="form-check-label" for="gridCheck1">
+                                        <label className="form-check-label" htmlFor="gridCheck1">
                                             Deseo recibir más información en mi correo eléctronico.
                                         </label>
                                     </div>
